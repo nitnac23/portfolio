@@ -1,0 +1,8 @@
+footer{
+	background-color: #353A40;
+	color: #fff;
+}
+
+section, header, footer{
+	padding: 50px 0;
+}
