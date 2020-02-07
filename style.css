@@ -17,8 +17,6 @@ img.img-work{
 
 img.img-work:hover{
 	box-shadow: 8px 16px 24px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
