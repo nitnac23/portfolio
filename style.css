@@ -18,11 +18,17 @@ body{
 
 body a:hover{
 	color:#534cf8;
+	text-decoration: none;
 }
 
 
 p{
 	font-size: 20px ;
+}
+
+.logo a{
+	font-size:1.50em;
+	color: black;;
 }
 
 section, header, footer{
@@ -46,6 +52,11 @@ img.img-work:hover{
 .btn-brand{
 	background-color: #534cf8;
 	color: #ffffff;
+}
+
+.btn-brand:hover{
+	background-color:#1108da;
+	color: #fff;
 }
 
 footer{
