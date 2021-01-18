@@ -59,6 +59,13 @@ img.img-work:hover{
 	color: #fff;
 }
 
+.skills{
+	border: 1px solid #534cf8;
+	border-radius: 25px;
+	padding: 10px 20px;
+	margin: 20px;
+}
+
 footer{
 	background-color: #F6F5FF;
 	color: #000000;
