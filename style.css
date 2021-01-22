@@ -2,6 +2,14 @@
 	color:#534cf8;
 }
 
+h1{ font-size: 30px;}
+h2{ font-size: 24px;}
+h3{ font-size: 18px;}
+h4{ font-size: 16px;}
+h5{ font-size: 13px;}
+h6{ font-size: 12px;}
+
+
 body{
 	font-family: sans-serif;
 }
@@ -23,7 +31,7 @@ body a:hover{
 
 
 p{
-	font-size: 20px ;
+	font-size: 16px ;
 }
 
 .logo a{
