@@ -2,13 +2,12 @@
 	color:#534cf8;
 }
 
-h1{ font-size: 30px;}
-h2{ font-size: 24px;}
-h3{ font-size: 18px;}
-h4{ font-size: 16px;}
-h5{ font-size: 13px;}
-h6{ font-size: 12px;}
-
+h1{ font-size: 34px;}
+h2{ font-size: 28px;}
+h3{ font-size: 20px;}
+h4{ font-size: 18px;}
+h5{ font-size: 16px;}
+h6{ font-size: 14px;}
 
 body{
 	font-family: sans-serif;
@@ -29,7 +28,7 @@ body a:hover{
 }
 
 p{
-	font-size: 16px ;
+	font-size: 20px ;
 }
 
 .logo a{
@@ -86,6 +85,9 @@ footer{
 	color: #000000;
 }
 
+.hero > h1 > span{
+	font-size: 60px;
+}
 
 /* #534cf8; */
 
