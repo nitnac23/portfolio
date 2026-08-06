@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitesh Chawathe — UX Architect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="nav-logo">NC</span>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="mailto:nitesh.chawathe@gmail.com">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-tag">UX Architect · 12+ Years</div>
+    <h1>Hi, I'm <span>Nitesh</span><br>Chawathe.</h1>
+    <p class="hero-subtitle">
+      I work at the intersection of backend strategy and UI craft — turning complex enterprise systems into intuitive, accessible experiences.
+    </p>
+    <div class="btn-group">
+      <a href="projects.html" class="btn btn-primary">View My Work</a>
+      <a href="about.html" class="btn btn-outline">About Me</a>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills-strip">
+    <div class="section-inner">
+      <span class="section-label">What I Do</span>
+      <h2 class="section-title">Skills & Expertise</h2>
+      <p class="section-desc">Covering every layer from research and wireframes to deployed code.</p>
+      <div class="skills-grid">
+        <span class="skill-pill pill-purple">UX Design</span>
+        <span class="skill-pill pill-coral">Wireframing & Prototyping</span>
+        <span class="skill-pill pill-teal">Design Systems</span>
+        <span class="skill-pill pill-yellow">Accessibility (WCAG / 508)</span>
+        <span class="skill-pill pill-purple">Front-End Development</span>
+        <span class="skill-pill pill-coral">Mobile UX</span>
+        <span class="skill-pill pill-teal">Salesforce Experience Cloud</span>
+        <span class="skill-pill pill-yellow">Agentforce / AI UX</span>
+        <span class="skill-pill pill-purple">CMS (Drupal / WordPress)</span>
+        <span class="skill-pill pill-coral">Figma</span>
+        <span class="skill-pill pill-teal">Styleguides</span>
+        <span class="skill-pill pill-yellow">User-Centered Design</span>
+        <span class="skill-pill pill-purple">Strategy & Analysis</span>
+        <span class="skill-pill pill-coral">Enterprise Apps</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlight-section">
+    <div class="section-inner">
+      <span class="section-label">Focus Areas</span>
+      <h2 class="section-title" style="color:#fff;">Where I Make<br><span class="text-gradient">an Impact</span></h2>
+      <p class="section-desc" style="color:#888;">Three areas where I spend most of my craft.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon icon-purple">🤖</div>
+          <h3>AI & Conversational UX</h3>
+          <p>Designing human-in-the-loop workflows and agentic interfaces — including Agentforce — that feel intuitive even when the underlying system is complex.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon icon-coral">🎨</div>
+          <h3>Design Systems</h3>
+          <p>Building tokenized component libraries and reusable prototypes that keep large teams moving fast without sacrificing brand or consistency.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon icon-teal">♿</div>
+          <h3>Accessibility</h3>
+          <p>Strict WCAG & Section 508 compliance. Zero-friction mobile experiences for low-literacy users — including public sector and healthcare audiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="section-inner">
+      <h2>Open to New Opportunities</h2>
+      <p>Looking for full-time roles where design meets strategy and ships real software.</p>
+      <a href="mailto:nitesh.chawathe@gmail.com" class="btn btn-white">Get In Touch →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-name">Nitesh Chawathe</div>
+    <p>UX Architect · <a href="mailto:nitesh.chawathe@gmail.com">nitesh.chawathe@gmail.com</a></p>
+    <p style="margin-top:.5rem; font-size:.8rem;">© 2026 Nitesh Chawathe</p>
+  </footer>
+
+  <script>
+    // Highlight active nav link
+    const links = document.querySelectorAll('.nav-links a');
+    links.forEach(l => {
+      if (l.href === location.href) l.classList.add('active');
+      else l.classList.remove('active');
+    });
+  </script>
+</body>
+</html>
